@@ -1,4 +1,35 @@
 /* Awesome Styilng */
+body{
+    background: white;
+}
 h1 {
-  color: olive;
+  color: red;
+  letter-spacing: 0px;
+  font-size: 6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .char1 {
+    color:yellow;
+}
+
+.char2 {
+    color: aquamarine
+}
+
+.char3 {
+    color:deepskyblue;
+}
+
+.char4 {
+  color: green;
+}
+
+.char5 {
+  color: violet;
+}
+
+.char6 {
+  color: brown;
 }
