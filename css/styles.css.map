@@ -2,8 +2,12 @@
   "version": 3,
   "file": "styles.css",
   "sources": [
-    "../scss/styles.scss"
+    "../scss/styles.scss",
+    "../scss/_global.scss",
+    "../scss/_type.scss",
+    "../scss/_grid.scss",
+    "../scss/_video.scss"
   ],
-  "mappings": "AAOA,AAAA,IAAI,AAAC,CACD,UAAU,CALG,OAAO,CAMvB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,GAAI,CACf,UAAU,CAAE,MAAO,CACnB,cAAc,CAAE,SAAU,CAC1B,KAAK,CAAE,KAAM,CACb,UAAU,CAAE,MAAO,CAEtB",
+  "mappings": "ACOA,AAAA,IAAI,AAAC,CACD,UAAU,CALG,qBAAI,CAOpB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,GAAI,CACf,UAAU,CAAE,MAAO,CACnB,cAAc,CAAE,SAAU,CAC1B,KAAK,CAAE,KAAM,CACb,UAAU,CAAE,MAAO,CACnB,UAAU,CAAE,MAAO,CACtB,AGjBD,AAAA,KAAK,AAAC,CACJ,MAAM,CAAE,gBAAiB,CACzB,UAAU,CAAE,kCACS,CACrB,OAAO,CAAE,KAAM,CACf,aAAa,CAAE,GAAI,CACpB",
   "names": []
 }

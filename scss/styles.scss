@@ -1,19 +1,6 @@
-/* Main Style Sheet  */
+/* Grand Central Station - HUB  */
 
-/* Color Palette */
-$primary-color:  #7ec0ee;
-$secondary-color: darkgreen;
-
-
-body {
-    background: $primary-color;
-}
-
-h1 {    
-    font-size: 7em;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    
-}
+@import "global";
+@import "type";
+@import "grid";
+@import "video";

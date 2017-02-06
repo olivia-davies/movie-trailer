@@ -1,0 +1,19 @@
+//Global Settings
+
+/* Color Palette */
+$primary-color:  rgba(85, 185, 255, 0.73);
+$secondary-color: darkgreen;
+
+
+body {
+    background: $primary-color;
+    
+}
+
+h1 {    
+    font-size: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
