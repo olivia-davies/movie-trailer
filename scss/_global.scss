@@ -26,8 +26,13 @@ h1 {
 p {
     text-align: center;
     font-size: 14px;
-}
-
+    
+// bottom imgs
+    
+    
+   img:not(#ponyoHead) {
+        width: 30px;
+    }
 
 // Video Player Styling
 video {
