@@ -18,7 +18,24 @@
     
     
 }
+
+// Ponyo image and header positioning
+
+header{
+    position: relative;
+}
+
+
+img#ponyoHead {
+    width: 150px;
+    position: absolute;
+}
+
    
+
+
+
+
     
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 35em)  {
@@ -42,10 +59,16 @@
     }
     
     main article {
-        width: 50%;
+        width: 80%;
     }
     
 }
+
+
+
+
+
+
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
