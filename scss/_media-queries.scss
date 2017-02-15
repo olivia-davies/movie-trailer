@@ -1,14 +1,21 @@
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
 
-   .page {
+   
+    .page {
        display: block;
     }
     
+    nav li {
+    text-align: left;
+    padding-right: 60px;
+    list-style-type: none;
+    }
     
     article p {
         padding: 1.5em;
     }
+    
     
     
   /* Diagnostic Styling. Delete When Done. */
@@ -19,8 +26,20 @@
     
 }
 
+@media screen and (min-width: 20em) {
+
+    nav li {
+    display: inline;
+}
+    
+}
+    
+    
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
+    
+    
+
     
     main {
         padding: 2em;
@@ -28,18 +47,15 @@
         justify-content: space-between;
     }
     
-    main article,
-    main aside {
+    main article {
         width: 50%;
     }
-    
-    
     
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
-       content: "Talla de Tablet";
+       content: "Tablet";
   }
 
 }
@@ -47,21 +63,15 @@
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
       
-    header h1 {
-        display: none;
-    }
+   #trailer {
+    width: 30%;
+    margin: auto;
+}
     
-    article h1 {
-        display: block;
-    }
-    
-    section {
-        padding-top: 0;
-    }
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
-       content: "Talla de Pantalla";
+       content: "Pantalla";
   }
 
 }

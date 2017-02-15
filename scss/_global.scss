@@ -5,7 +5,13 @@ $primary-color: #df6c4d;
 $secondary-color: #005f98;
 $terciary-color: #19abe4;
 
+
 //Typography
+
+body {
+    background: #f0f0f0;
+    font-family: "Open Sans";
+}
 
 h1 {
     font-family: "Dosis";
@@ -13,17 +19,34 @@ h1 {
     text-transform: uppercase;
     color: $primary-color;
     text-align: center;
-    size: 12em;
+    font-size: 4em;
 }
 
-//Hide for Mobile and Tablet
+nav ul li {
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
 
 
 // Video Player Styling
 video {
     max-width: 100%;
     width: 100%;
+    border-radius: 7em;
 }
 
 
+// Other
 
+#trailer {
+    width: 95%;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}
