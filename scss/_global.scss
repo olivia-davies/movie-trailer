@@ -1,17 +1,22 @@
 // Global Stylesheet
 
 // Color Palette
-$primary-color: gold;
-$secondary-color: purple;
-
+$primary-color: #df6c4d;
+$secondary-color: #005f98;
+$terciary-color: #19abe4;
 
 //Typography
 
-//Hide for Mobile and Tablet
-
-article h1 {
-    display: none;
+h1 {
+    font-family: "Dosis";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $primary-color;
+    text-align: center;
+    size: 12em;
 }
+
+//Hide for Mobile and Tablet
 
 
 // Video Player Styling
