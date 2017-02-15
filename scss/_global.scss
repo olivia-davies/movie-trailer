@@ -22,10 +22,6 @@ h1 {
     font-size: 4em;
 }
 
-nav ul li {
-    margin-bottom: 15px;
-}
-
 p {
     text-align: center;
     font-size: 14px;
@@ -36,7 +32,7 @@ p {
 video {
     max-width: 100%;
     width: 100%;
-    border-radius: 7em;
+    border-radius: 6em;
 }
 
 
@@ -49,4 +45,12 @@ video {
 
 footer{
     text-align: center;
+    overflow: hidden;
+}
+
+a:active,
+a:link;
+a:visited {
+    color: black;
+    text-decoration: none;
 }
