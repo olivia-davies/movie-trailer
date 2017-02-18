@@ -8,6 +8,7 @@ $terciary-color: #19abe4;
 //Typography
 body {
     background: #f0f0f0;
+    background-repeat: no-repeat;
     color: $secondary-color;
     font-family: "Open Sans";
     text-align: center;
@@ -59,17 +60,17 @@ nav li {
     font-weight: bold;
     color: $secondary-color;
     background: #fff;
-    max-width: 300px;
+    max-width: 200px;
     text-transform: uppercase;        
 
 }
 
 nav #leftNav {
-    border-radius: 1em 0 0 1em;
+    border-radius: 0.5em 0 0 0.5em;
 }
 
 nav #rightNav {
-    border-radius: 0 1em 1em 0em;
+    border-radius: 0 0.5em 0.5em 0em;
 
 }
 
@@ -93,14 +94,15 @@ a:visited {
 video {
     max-width: 1000%;
     width: 100%;
-    border-radius: 6em;
+    border-radius: 2em;
 }
 
 .mejs__container {
         background: none;
 
 }
-// main
+
+// Main
 
 main {
     padding: 2em;
