@@ -1,16 +1,17 @@
-// Global Stylesheet
+// Global Stylesheet //
 
 // Color Palette
 $primary-color: #df6c4d;
 $secondary-color: #005f98;
 $terciary-color: #19abe4;
 
-
 //Typography
-
 body {
     background: #f0f0f0;
+    color: $secondary-color;
     font-family: "Open Sans";
+    text-align: center;
+    font-size: 14px;
 }
 
 h1 {
@@ -19,44 +20,106 @@ h1 {
     text-transform: uppercase;
     color: $primary-color;
     text-align: center;
-    font-size: 4em;
-    position: relative;
+    font-size: 5em;
+    margin-top: 0px;
 }
 
-p {
-    text-align: center;
-    font-size: 14px;
+// Header
+header {
+    position: relative;
+    height: 150px;
     
-// bottom imgs
+}
+
+#ponyoHead {
+    width:180px;
+    position: relative;
+    top: -100px;
+}
+
+// Nav
+nav {
+    display: flex;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    padding-right: 40px;
+    justify-content: center;
+
+}
+
+nav li {
+    list-style-type: none;
+    flex: 1 0 auto;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: $secondary-color;
+    background: #fff;
+    max-width: 300px;
+    text-transform: uppercase;        
+
+}
+
+nav #leftNav {
+    border-radius: 1em 0 0 1em;
+}
+
+nav #rightNav {
+    border-radius: 0 1em 1em 0em;
+
+}
+
+a:link,
+a:visited {
+    color: $secondary-color;
+    text-decoration: none;
+}
     
-    
-   img:not(#ponyoHead) {
-        width: 30px;
-    }
+.grow:hover {
+    color: $terciary-color;
+    transition-timing-function: ease;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    transition: all .5s;
+    text-decoration: underline;
+}
 
 // Video Player Styling
 video {
-    max-width: 100%;
+    max-width: 1000%;
     width: 100%;
     border-radius: 6em;
 }
 
+.mejs__container {
+        background: none;
 
-// Other
+}
+// main
 
-#trailer {
-    width: 95%;
+main {
+    padding: 2em;
+}
+
+article p{
+    max-width: 500px;
     margin: auto;
 }
 
-footer{
-    text-align: center;
-    overflow: hidden;
+// bottom images
+img {
+    width: 100px;
+    border-radius: 2em;
+    padding: .5em;
 }
 
-a:active,
-a:link;
-a:visited {
-    color: black;
-    text-decoration: none;
+//footer
+footer {
+    text-align: center;
+    overflow: hidden;
 }
